@@ -115,7 +115,7 @@ class home extends Controller
               }
            }else{
              return redirect('/changepass')->with('errmsg',
-             'old password is not correct');
+             'old password not correct');
            }
         }else{
             return redirect('/changepass')->with('errmsg',
